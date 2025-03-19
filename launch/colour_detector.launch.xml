@@ -1,0 +1,13 @@
+<launch>
+    <node pkg="ros360_cv_tools" exec="colour_detector" name="colour_detector" output="screen">
+        <param name="image_topic" value="/a200_0000/sensors/camera_0/color/image
+"/>
+        <param name="output_topic" value="/colour_detection"/>
+        <param name="lower_limits" value="[0,0,255]"/>
+        <param name="upper_limits" value="[203,192,255]"/>
+        <param name="show_trackbars" value="True"/>
+        <param name="flip_vertical" value="False" />
+        <param name="flip_horizontal" value="False" />
+        <param name="min_radius" value="10"/>
+    </node>
+</launch>

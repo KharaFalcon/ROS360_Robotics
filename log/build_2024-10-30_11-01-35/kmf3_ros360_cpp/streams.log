@@ -1,0 +1,46 @@
+[0.074s] Invoking command in '/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp -- -j4 -l4
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target helloworld[0m
+[0.245s] [ 14%] Built target helloworld
+[0.273s] [35m[1mConsolidate compiler generated dependencies of target lidarSub[0m
+[0.345s] [ 28%] Built target lidarSub
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target randomRobot[0m
+[0.433s] [ 42%] Built target randomRobot
+[0.466s] [35m[1mConsolidate compiler generated dependencies of target templatePubSub[0m
+[0.529s] [ 57%] Built target templatePubSub
+[0.561s] [35m[1mConsolidate compiler generated dependencies of target worksheet3[0m
+[0.623s] [ 71%] Built target worksheet3
+[0.655s] [35m[1mConsolidate compiler generated dependencies of target exampleSubscriber[0m
+[0.718s] [ 85%] Built target exampleSubscriber
+[0.751s] [35m[1mConsolidate compiler generated dependencies of target examplePublisher[0m
+[0.815s] [100%] Built target examplePublisher
+[0.878s] Invoked command in '/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp -- -j4 -l4
+[1.007s] Invoking command in '/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp
+[1.032s] -- Install configuration: ""
+[1.038s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/helloworld
+[1.048s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/examplePublisher
+[1.061s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/exampleSubscriber
+[1.072s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/lidarSub
+[1.100s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/randomRobot
+[1.108s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/templatePubSub
+[1.120s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/worksheet3
+[1.132s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp//launch
+[1.139s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp//launch/husky.launch.py
+[1.141s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp//config
+[1.143s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp//config/husky_rviz.config.rviz
+[1.147s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/helloworld
+[1.151s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/ament_index/resource_index/package_run_dependencies/kmf3_ros360_cpp
+[1.152s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/ament_index/resource_index/parent_prefix_path/kmf3_ros360_cpp
+[1.155s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/environment/ament_prefix_path.sh
+[1.157s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/environment/ament_prefix_path.dsv
+[1.159s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/environment/path.sh
+[1.161s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/environment/path.dsv
+[1.163s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/local_setup.bash
+[1.165s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/local_setup.sh
+[1.166s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/local_setup.zsh
+[1.169s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/local_setup.dsv
+[1.172s] -- Installing: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/package.dsv
+[1.192s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/ament_index/resource_index/packages/kmf3_ros360_cpp
+[1.198s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/cmake/kmf3_ros360_cppConfig.cmake
+[1.200s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/cmake/kmf3_ros360_cppConfig-version.cmake
+[1.201s] -- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/package.xml
+[1.210s] Invoked command in '/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp

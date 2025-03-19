@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.000158] (kmf3_ros360_cpp) JobQueued: {'identifier': 'kmf3_ros360_cpp', 'dependencies': OrderedDict()}
+[0.000197] (kmf3_ros360_cpp) JobStarted: {'identifier': 'kmf3_ros360_cpp'}
+[0.035348] (kmf3_ros360_cpp) JobProgress: {'identifier': 'kmf3_ros360_cpp', 'progress': 'cmake'}
+[0.044608] (kmf3_ros360_cpp) JobProgress: {'identifier': 'kmf3_ros360_cpp', 'progress': 'build'}
+[0.045382] (kmf3_ros360_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp', '--', '-j4', '-l4'], 'cwd': '/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp', 'env': OrderedDict([('GAUSS_EXEDIR', '/opt/gaussian/g16/bsd:/opt/gaussian/g16'), ('PGI_TERM', 'trace,abort'), ('_DSM_BARRIER', 'SHM'), ('LANGUAGE', 'en_GB:en'), ('USER', 'kmf3'), ('GAUSS_LFLAGS2', '--LindaOptions -s 10000000'), ('G16BASIS', '/opt/gaussian/g16/basis'), ('XDG_SESSION_TYPE', 'wayland'), ('g16root', '/opt/gaussian'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/gaussian/g16/bsd:/opt/gaussian/g16:/opt/gaussian/gv/lib'), ('HOME', '/impacs/kmf3'), ('GAUSS_SRCDIR', '/tmp/gaussian-kmf3'), ('OLDPWD', '/impacs/kmf3/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('PERLLIB', '/opt/gaussian/gauopen:/opt/gaussian/g16/bsd:/opt/gaussian/g16'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ANACONDA_DEFAULT_ENV', 'teaching'), ('SYSTEMD_EXEC_PID', '162048'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/25423/bus'), ('COLORTERM', 'truecolor'), ('GV_DIR', '/opt/gaussian/gv'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/impacs/kmf3/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kmf3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kmf3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/impacs/kmf3/.dotnet/tools:/opt/gaussian/gauopen:/opt/gaussian/g16/bsd:/opt/gaussian/g16:/opt/microchip/xc16/bin'), ('SESSION_MANAGER', 'local/mpct-llb57-21:@/tmp/.ICE-unix/151712,unix/mpct-llb57-21:/tmp/.ICE-unix/151712'), ('GAUSS_ARCHDIR', '/opt/gaussian/g16/arch'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/62a95f3b_4594_4c86_a6e7_24c6dbda22d6'), ('GNOME_SETUP_DISPLAY', ':9'), ('XDG_RUNTIME_DIR', '/run/user/25423'), ('DISPLAY', ':8'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/25423/.mutter-Xwaylandauth.ACSYW2'), ('GNOME_TERMINAL_SERVICE', ':1.189'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/25423/keyring/ssh'), ('AMENT_PREFIX_PATH', '/impacs/kmf3/ros2_ws/install/ros360_gz:/impacs/kmf3/ros2_ws/install/kmf3_ros360_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_25423_mTXtmu'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GAUSS_BSDDIR', '/opt/gaussian/g16/bsd'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/gaussian/gauopen:/opt/gaussian/g16/bsd:/opt/gaussian/g16'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('GAUSS_LEXEDIR', '/opt/gaussian/g16/linda-exe'), ('CMAKE_PREFIX_PATH', '/impacs/kmf3/ros2_ws/install/ros360_gz:/impacs/kmf3/ros2_ws/install/kmf3_ros360_cpp:/opt/ros/humble')]), 'shell': False}
+[0.093031] (-) TimerEvent: {}
+[0.193303] (-) TimerEvent: {}
+[0.224271] (kmf3_ros360_cpp) StdoutLine: {'line': b'[ 14%] Built target helloworld\n'}
+[0.293444] (-) TimerEvent: {}
+[0.297198] (kmf3_ros360_cpp) StdoutLine: {'line': b'[ 28%] Built target lidarSub\n'}
+[0.375589] (kmf3_ros360_cpp) StdoutLine: {'line': b'[ 42%] Built target randomRobot\n'}
+[0.393523] (-) TimerEvent: {}
+[0.407058] (kmf3_ros360_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target templatePubSub\x1b[0m\n'}
+[0.465608] (kmf3_ros360_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/templatePubSub.dir/src/templatePubSub.cpp.o\x1b[0m\n'}
+[0.493623] (-) TimerEvent: {}
+[0.593922] (-) TimerEvent: {}
+[0.694293] (-) TimerEvent: {}
+[0.795899] (-) TimerEvent: {}
+[0.896581] (-) TimerEvent: {}
+[0.996854] (-) TimerEvent: {}
+[1.097528] (-) TimerEvent: {}
+[1.198279] (-) TimerEvent: {}
+[1.298567] (-) TimerEvent: {}
+[1.398819] (-) TimerEvent: {}
+[1.499068] (-) TimerEvent: {}
+[1.599829] (-) TimerEvent: {}
+[1.702364] (-) TimerEvent: {}
+[1.802658] (-) TimerEvent: {}
+[1.902967] (-) TimerEvent: {}
+[2.003276] (-) TimerEvent: {}
+[2.103634] (-) TimerEvent: {}
+[2.204519] (-) TimerEvent: {}
+[2.304965] (-) TimerEvent: {}
+[2.405534] (-) TimerEvent: {}
+[2.505870] (-) TimerEvent: {}
+[2.606143] (-) TimerEvent: {}
+[2.706393] (-) TimerEvent: {}
+[2.806707] (-) TimerEvent: {}
+[2.906991] (-) TimerEvent: {}
+[3.008192] (-) TimerEvent: {}
+[3.108546] (-) TimerEvent: {}
+[3.209566] (-) TimerEvent: {}
+[3.310444] (-) TimerEvent: {}
+[3.410727] (-) TimerEvent: {}
+[3.511302] (-) TimerEvent: {}
+[3.611674] (-) TimerEvent: {}
+[3.712233] (-) TimerEvent: {}
+[3.813617] (-) TimerEvent: {}
+[3.916668] (-) TimerEvent: {}
+[4.016966] (-) TimerEvent: {}
+[4.117257] (-) TimerEvent: {}
+[4.217529] (-) TimerEvent: {}
+[4.318005] (-) TimerEvent: {}
+[4.418508] (-) TimerEvent: {}
+[4.519255] (-) TimerEvent: {}
+[4.620803] (-) TimerEvent: {}
+[4.721066] (-) TimerEvent: {}
+[4.822452] (-) TimerEvent: {}
+[4.922956] (-) TimerEvent: {}
+[5.024068] (-) TimerEvent: {}
+[5.124683] (-) TimerEvent: {}
+[5.225015] (-) TimerEvent: {}
+[5.326991] (-) TimerEvent: {}
+[5.427419] (-) TimerEvent: {}
+[5.528383] (-) TimerEvent: {}
+[5.632212] (-) TimerEvent: {}
+[5.732512] (-) TimerEvent: {}
+[5.832985] (-) TimerEvent: {}
+[5.933277] (-) TimerEvent: {}
+[6.033761] (-) TimerEvent: {}
+[6.134106] (-) TimerEvent: {}
+[6.234371] (-) TimerEvent: {}
+[6.334922] (-) TimerEvent: {}
+[6.435517] (-) TimerEvent: {}
+[6.535977] (-) TimerEvent: {}
+[6.636250] (-) TimerEvent: {}
+[6.737935] (-) TimerEvent: {}
+[6.838284] (-) TimerEvent: {}
+[6.938529] (-) TimerEvent: {}
+[7.038828] (-) TimerEvent: {}
+[7.139384] (-) TimerEvent: {}
+[7.240038] (-) TimerEvent: {}
+[7.341801] (-) TimerEvent: {}
+[7.442063] (-) TimerEvent: {}
+[7.542526] (-) TimerEvent: {}
+[7.643190] (-) TimerEvent: {}
+[7.743484] (-) TimerEvent: {}
+[7.843798] (-) TimerEvent: {}
+[7.944297] (-) TimerEvent: {}
+[8.045088] (-) TimerEvent: {}
+[8.145393] (-) TimerEvent: {}
+[8.245775] (-) TimerEvent: {}
+[8.346479] (-) TimerEvent: {}
+[8.447614] (-) TimerEvent: {}
+[8.548942] (-) TimerEvent: {}
+[8.650002] (-) TimerEvent: {}
+[8.750650] (-) TimerEvent: {}
+[8.851864] (-) TimerEvent: {}
+[8.952154] (-) TimerEvent: {}
+[9.052523] (-) TimerEvent: {}
+[9.154266] (-) TimerEvent: {}
+[9.255543] (-) TimerEvent: {}
+[9.355858] (-) TimerEvent: {}
+[9.456138] (-) TimerEvent: {}
+[9.556431] (-) TimerEvent: {}
+[9.656695] (-) TimerEvent: {}
+[9.756954] (-) TimerEvent: {}
+[9.858531] (-) TimerEvent: {}
+[9.958863] (-) TimerEvent: {}
+[10.060088] (-) TimerEvent: {}
+[10.160614] (-) TimerEvent: {}
+[10.261236] (-) TimerEvent: {}
+[10.361506] (-) TimerEvent: {}
+[10.463064] (-) TimerEvent: {}
+[10.563360] (-) TimerEvent: {}
+[10.663747] (-) TimerEvent: {}
+[10.764841] (-) TimerEvent: {}
+[10.865209] (-) TimerEvent: {}
+[10.965608] (-) TimerEvent: {}
+[11.065932] (-) TimerEvent: {}
+[11.166392] (-) TimerEvent: {}
+[11.266650] (-) TimerEvent: {}
+[11.367036] (-) TimerEvent: {}
+[11.467322] (-) TimerEvent: {}
+[11.567605] (-) TimerEvent: {}
+[11.667880] (-) TimerEvent: {}
+[11.768521] (-) TimerEvent: {}
+[11.868802] (-) TimerEvent: {}
+[11.969751] (-) TimerEvent: {}
+[12.070585] (-) TimerEvent: {}
+[12.170886] (-) TimerEvent: {}
+[12.273128] (-) TimerEvent: {}
+[12.374301] (-) TimerEvent: {}
+[12.474823] (-) TimerEvent: {}
+[12.575196] (-) TimerEvent: {}
+[12.676435] (-) TimerEvent: {}
+[12.777950] (-) TimerEvent: {}
+[12.878241] (-) TimerEvent: {}
+[12.978860] (-) TimerEvent: {}
+[13.080055] (-) TimerEvent: {}
+[13.182167] (-) TimerEvent: {}
+[13.282469] (-) TimerEvent: {}
+[13.383450] (-) TimerEvent: {}
+[13.484142] (-) TimerEvent: {}
+[13.584627] (-) TimerEvent: {}
+[13.686084] (-) TimerEvent: {}
+[13.786426] (-) TimerEvent: {}
+[13.887805] (-) TimerEvent: {}
+[13.988086] (-) TimerEvent: {}
+[14.088671] (-) TimerEvent: {}
+[14.103878] (kmf3_ros360_cpp) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable templatePubSub\x1b[0m\n'}
+[14.188991] (-) TimerEvent: {}
+[14.289362] (-) TimerEvent: {}
+[14.391195] (-) TimerEvent: {}
+[14.491519] (-) TimerEvent: {}
+[14.591948] (-) TimerEvent: {}
+[14.692418] (-) TimerEvent: {}
+[14.792896] (-) TimerEvent: {}
+[14.894542] (-) TimerEvent: {}
+[14.970510] (kmf3_ros360_cpp) StdoutLine: {'line': b'[ 57%] Built target templatePubSub\n'}
+[14.995010] (-) TimerEvent: {}
+[15.049970] (kmf3_ros360_cpp) StdoutLine: {'line': b'[ 71%] Built target worksheet3\n'}
+[15.095118] (-) TimerEvent: {}
+[15.128980] (kmf3_ros360_cpp) StdoutLine: {'line': b'[ 85%] Built target exampleSubscriber\n'}
+[15.195249] (-) TimerEvent: {}
+[15.199570] (kmf3_ros360_cpp) StdoutLine: {'line': b'[100%] Built target examplePublisher\n'}
+[15.264241] (kmf3_ros360_cpp) CommandEnded: {'returncode': 0}
+[15.295848] (-) TimerEvent: {}
+[15.360942] (kmf3_ros360_cpp) JobProgress: {'identifier': 'kmf3_ros360_cpp', 'progress': 'install'}
+[15.378654] (kmf3_ros360_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp'], 'cwd': '/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp', 'env': OrderedDict([('GAUSS_EXEDIR', '/opt/gaussian/g16/bsd:/opt/gaussian/g16'), ('PGI_TERM', 'trace,abort'), ('_DSM_BARRIER', 'SHM'), ('LANGUAGE', 'en_GB:en'), ('USER', 'kmf3'), ('GAUSS_LFLAGS2', '--LindaOptions -s 10000000'), ('G16BASIS', '/opt/gaussian/g16/basis'), ('XDG_SESSION_TYPE', 'wayland'), ('g16root', '/opt/gaussian'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/gaussian/g16/bsd:/opt/gaussian/g16:/opt/gaussian/gv/lib'), ('HOME', '/impacs/kmf3'), ('GAUSS_SRCDIR', '/tmp/gaussian-kmf3'), ('OLDPWD', '/impacs/kmf3/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('PERLLIB', '/opt/gaussian/gauopen:/opt/gaussian/g16/bsd:/opt/gaussian/g16'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ANACONDA_DEFAULT_ENV', 'teaching'), ('SYSTEMD_EXEC_PID', '162048'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/25423/bus'), ('COLORTERM', 'truecolor'), ('GV_DIR', '/opt/gaussian/gv'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/impacs/kmf3/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kmf3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kmf3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/impacs/kmf3/.dotnet/tools:/opt/gaussian/gauopen:/opt/gaussian/g16/bsd:/opt/gaussian/g16:/opt/microchip/xc16/bin'), ('SESSION_MANAGER', 'local/mpct-llb57-21:@/tmp/.ICE-unix/151712,unix/mpct-llb57-21:/tmp/.ICE-unix/151712'), ('GAUSS_ARCHDIR', '/opt/gaussian/g16/arch'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/62a95f3b_4594_4c86_a6e7_24c6dbda22d6'), ('GNOME_SETUP_DISPLAY', ':9'), ('XDG_RUNTIME_DIR', '/run/user/25423'), ('DISPLAY', ':8'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/25423/.mutter-Xwaylandauth.ACSYW2'), ('GNOME_TERMINAL_SERVICE', ':1.189'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/25423/keyring/ssh'), ('AMENT_PREFIX_PATH', '/impacs/kmf3/ros2_ws/install/ros360_gz:/impacs/kmf3/ros2_ws/install/kmf3_ros360_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_25423_mTXtmu'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GAUSS_BSDDIR', '/opt/gaussian/g16/bsd'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/gaussian/gauopen:/opt/gaussian/g16/bsd:/opt/gaussian/g16'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('GAUSS_LEXEDIR', '/opt/gaussian/g16/linda-exe'), ('CMAKE_PREFIX_PATH', '/impacs/kmf3/ros2_ws/install/ros360_gz:/impacs/kmf3/ros2_ws/install/kmf3_ros360_cpp:/opt/ros/humble')]), 'shell': False}
+[15.395869] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.396042] (-) TimerEvent: {}
+[15.405244] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/helloworld\n'}
+[15.413024] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/examplePublisher\n'}
+[15.428099] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/exampleSubscriber\n'}
+[15.440381] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/lidarSub\n'}
+[15.453582] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/randomRobot\n'}
+[15.467004] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Installing: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/templatePubSub\n'}
+[15.496188] (-) TimerEvent: {}
+[15.596778] (-) TimerEvent: {}
+[15.611814] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Set runtime path of "/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/templatePubSub" to ""\n'}
+[15.618920] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/worksheet3\n'}
+[15.633223] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp//launch\n'}
+[15.635584] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp//launch/husky.launch.py\n'}
+[15.638477] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp//config\n'}
+[15.641045] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp//config/husky_rviz.config.rviz\n'}
+[15.645428] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/lib/kmf3_ros360_cpp/helloworld\n'}
+[15.650409] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/ament_index/resource_index/package_run_dependencies/kmf3_ros360_cpp\n'}
+[15.652556] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/ament_index/resource_index/parent_prefix_path/kmf3_ros360_cpp\n'}
+[15.654782] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/environment/ament_prefix_path.sh\n'}
+[15.658366] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/environment/ament_prefix_path.dsv\n'}
+[15.659876] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/environment/path.sh\n'}
+[15.662035] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/environment/path.dsv\n'}
+[15.664148] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/local_setup.bash\n'}
+[15.665943] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/local_setup.sh\n'}
+[15.667847] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/local_setup.zsh\n'}
+[15.670203] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/local_setup.dsv\n'}
+[15.672812] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Installing: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/package.dsv\n'}
+[15.688296] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/ament_index/resource_index/packages/kmf3_ros360_cpp\n'}
+[15.691204] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/cmake/kmf3_ros360_cppConfig.cmake\n'}
+[15.692495] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/cmake/kmf3_ros360_cppConfig-version.cmake\n'}
+[15.694079] (kmf3_ros360_cpp) StdoutLine: {'line': b'-- Up-to-date: /impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/install/kmf3_ros360_cpp/share/kmf3_ros360_cpp/package.xml\n'}
+[15.696904] (-) TimerEvent: {}
+[15.701824] (kmf3_ros360_cpp) CommandEnded: {'returncode': 0}
+[15.797720] (-) TimerEvent: {}
+[15.898093] (-) TimerEvent: {}
+[15.958744] (kmf3_ros360_cpp) JobEnded: {'identifier': 'kmf3_ros360_cpp', 'rc': 0}
+[15.968105] (-) EventReactorShutdown: {}

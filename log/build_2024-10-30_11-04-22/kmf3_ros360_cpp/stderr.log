@@ -1,0 +1,26 @@
+[01m[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:112:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kdefault_random_engine[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+  112 |     std::[01;31m[Kdefault_random_engine[m[K generator;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:[m[K In member function ‘[01m[Kvoid PubSubTemplate::timer_callback()[m[K’:
+[01m[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:60:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kuniform_real_distribution[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kuniform_int_distribution[m[K’?
+   60 |          std::[01;31m[Kuniform_real_distribution[m[K<double> distribution(0.0, 1.0);
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |               [32m[Kuniform_int_distribution[m[K
+[01m[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:60:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+   60 |          std::uniform_real_distribution<[01;31m[Kdouble[m[K> distribution(0.0, 1.0);
+      |                                         [01;31m[K^~~~~~[m[K
+[01m[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:61:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kgenerator[m[K’ was not declared in this scope
+   61 |     float x = distribution([01;31m[Kgenerator[m[K);
+      |                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:61:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistribution[m[K’ was not declared in this scope
+   61 |     float x = [01;31m[Kdistribution[m[K(generator);
+      |               [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:61:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   61 |     float [01;35m[Kx[m[K = distribution(generator);
+      |           [01;35m[K^[m[K
+[01m[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:62:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   62 |     float [01;35m[Kz[m[K = distribution(generator) - 0.5;
+      |           [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/templatePubSub.dir/build.make:76: CMakeFiles/templatePubSub.dir/src/templatePubSub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/templatePubSub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

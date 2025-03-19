@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000152] (kmf3_ros360_cpp) JobQueued: {'identifier': 'kmf3_ros360_cpp', 'dependencies': OrderedDict()}
+[0.000194] (kmf3_ros360_cpp) JobStarted: {'identifier': 'kmf3_ros360_cpp'}
+[0.031587] (kmf3_ros360_cpp) JobProgress: {'identifier': 'kmf3_ros360_cpp', 'progress': 'cmake'}
+[0.044100] (kmf3_ros360_cpp) JobProgress: {'identifier': 'kmf3_ros360_cpp', 'progress': 'build'}
+[0.051499] (kmf3_ros360_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp', '--', '-j4', '-l4'], 'cwd': '/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp', 'env': OrderedDict([('GAUSS_EXEDIR', '/opt/gaussian/g16/bsd:/opt/gaussian/g16'), ('PGI_TERM', 'trace,abort'), ('_DSM_BARRIER', 'SHM'), ('LANGUAGE', 'en_GB:en'), ('USER', 'kmf3'), ('GAUSS_LFLAGS2', '--LindaOptions -s 10000000'), ('G16BASIS', '/opt/gaussian/g16/basis'), ('XDG_SESSION_TYPE', 'wayland'), ('g16root', '/opt/gaussian'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/gaussian/g16/bsd:/opt/gaussian/g16:/opt/gaussian/gv/lib'), ('HOME', '/impacs/kmf3'), ('GAUSS_SRCDIR', '/tmp/gaussian-kmf3'), ('OLDPWD', '/impacs/kmf3/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('PERLLIB', '/opt/gaussian/gauopen:/opt/gaussian/g16/bsd:/opt/gaussian/g16'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ANACONDA_DEFAULT_ENV', 'teaching'), ('SYSTEMD_EXEC_PID', '162048'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/25423/bus'), ('COLORTERM', 'truecolor'), ('GV_DIR', '/opt/gaussian/gv'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/impacs/kmf3/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kmf3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kmf3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/impacs/kmf3/.dotnet/tools:/opt/gaussian/gauopen:/opt/gaussian/g16/bsd:/opt/gaussian/g16:/opt/microchip/xc16/bin'), ('SESSION_MANAGER', 'local/mpct-llb57-21:@/tmp/.ICE-unix/151712,unix/mpct-llb57-21:/tmp/.ICE-unix/151712'), ('GAUSS_ARCHDIR', '/opt/gaussian/g16/arch'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/62a95f3b_4594_4c86_a6e7_24c6dbda22d6'), ('GNOME_SETUP_DISPLAY', ':9'), ('XDG_RUNTIME_DIR', '/run/user/25423'), ('DISPLAY', ':8'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/25423/.mutter-Xwaylandauth.ACSYW2'), ('GNOME_TERMINAL_SERVICE', ':1.189'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/25423/keyring/ssh'), ('AMENT_PREFIX_PATH', '/impacs/kmf3/ros2_ws/install/ros360_gz:/impacs/kmf3/ros2_ws/install/kmf3_ros360_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_25423_mTXtmu'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GAUSS_BSDDIR', '/opt/gaussian/g16/bsd'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/build/kmf3_ros360_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/gaussian/gauopen:/opt/gaussian/g16/bsd:/opt/gaussian/g16'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('GAUSS_LEXEDIR', '/opt/gaussian/g16/linda-exe'), ('CMAKE_PREFIX_PATH', '/impacs/kmf3/ros2_ws/install/ros360_gz:/impacs/kmf3/ros2_ws/install/kmf3_ros360_cpp:/opt/ros/humble')]), 'shell': False}
+[0.095298] (-) TimerEvent: {}
+[0.194987] (kmf3_ros360_cpp) StdoutLine: {'line': b'[ 14%] Built target helloworld\n'}
+[0.196035] (-) TimerEvent: {}
+[0.268994] (kmf3_ros360_cpp) StdoutLine: {'line': b'[ 28%] Built target lidarSub\n'}
+[0.296299] (-) TimerEvent: {}
+[0.355052] (kmf3_ros360_cpp) StdoutLine: {'line': b'[ 42%] Built target randomRobot\n'}
+[0.390976] (kmf3_ros360_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target templatePubSub\x1b[0m\n'}
+[0.396392] (-) TimerEvent: {}
+[0.445603] (kmf3_ros360_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/templatePubSub.dir/src/templatePubSub.cpp.o\x1b[0m\n'}
+[0.497122] (-) TimerEvent: {}
+[0.597853] (-) TimerEvent: {}
+[0.698814] (-) TimerEvent: {}
+[0.800383] (-) TimerEvent: {}
+[0.903323] (-) TimerEvent: {}
+[1.003579] (-) TimerEvent: {}
+[1.103820] (-) TimerEvent: {}
+[1.204201] (-) TimerEvent: {}
+[1.304493] (-) TimerEvent: {}
+[1.404881] (-) TimerEvent: {}
+[1.505162] (-) TimerEvent: {}
+[1.606292] (-) TimerEvent: {}
+[1.706573] (-) TimerEvent: {}
+[1.807364] (-) TimerEvent: {}
+[1.907688] (-) TimerEvent: {}
+[2.009085] (-) TimerEvent: {}
+[2.109899] (-) TimerEvent: {}
+[2.210884] (-) TimerEvent: {}
+[2.311163] (-) TimerEvent: {}
+[2.411516] (-) TimerEvent: {}
+[2.511852] (-) TimerEvent: {}
+[2.612560] (-) TimerEvent: {}
+[2.713088] (-) TimerEvent: {}
+[2.814108] (-) TimerEvent: {}
+[2.915027] (-) TimerEvent: {}
+[3.017033] (-) TimerEvent: {}
+[3.118642] (-) TimerEvent: {}
+[3.219093] (-) TimerEvent: {}
+[3.319313] (-) TimerEvent: {}
+[3.419619] (-) TimerEvent: {}
+[3.520078] (-) TimerEvent: {}
+[3.620675] (-) TimerEvent: {}
+[3.720968] (-) TimerEvent: {}
+[3.821795] (-) TimerEvent: {}
+[3.923346] (-) TimerEvent: {}
+[4.018245] (kmf3_ros360_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:112:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdefault_random_engine\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.018442] (kmf3_ros360_cpp) StderrLine: {'line': b'  112 |     std::\x1b[01;31m\x1b[Kdefault_random_engine\x1b[m\x1b[K generator;\n'}
+[4.019984] (kmf3_ros360_cpp) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.023454] (-) TimerEvent: {}
+[4.122761] (kmf3_ros360_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PubSubTemplate::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.123088] (kmf3_ros360_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:60:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuniform_real_distribution\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kuniform_int_distribution\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.123606] (-) TimerEvent: {}
+[4.123879] (kmf3_ros360_cpp) StderrLine: {'line': b'   60 |          std::\x1b[01;31m\x1b[Kuniform_real_distribution\x1b[m\x1b[K<double> distribution(0.0, 1.0);\n'}
+[4.124190] (kmf3_ros360_cpp) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.124500] (kmf3_ros360_cpp) StderrLine: {'line': b'      |               \x1b[32m\x1b[Kuniform_int_distribution\x1b[m\x1b[K\n'}
+[4.124606] (kmf3_ros360_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:60:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.124954] (kmf3_ros360_cpp) StderrLine: {'line': b'   60 |          std::uniform_real_distribution<\x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K> distribution(0.0, 1.0);\n'}
+[4.125038] (kmf3_ros360_cpp) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.132124] (kmf3_ros360_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:61:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgenerator\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.132352] (kmf3_ros360_cpp) StderrLine: {'line': b'   61 |     float x = distribution(\x1b[01;31m\x1b[Kgenerator\x1b[m\x1b[K);\n'}
+[4.132427] (kmf3_ros360_cpp) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.143289] (kmf3_ros360_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:61:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistribution\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.143597] (kmf3_ros360_cpp) StderrLine: {'line': b'   61 |     float x = \x1b[01;31m\x1b[Kdistribution\x1b[m\x1b[K(generator);\n'}
+[4.143676] (kmf3_ros360_cpp) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.144282] (kmf3_ros360_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:61:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.144387] (kmf3_ros360_cpp) StderrLine: {'line': b'   61 |     float \x1b[01;35m\x1b[Kx\x1b[m\x1b[K = distribution(generator);\n'}
+[4.144456] (kmf3_ros360_cpp) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.144528] (kmf3_ros360_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/impacs/kmf3/ros2_ws/src/kmf3_ros360_cpp/src/templatePubSub.cpp:62:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.144604] (kmf3_ros360_cpp) StderrLine: {'line': b'   62 |     float \x1b[01;35m\x1b[Kz\x1b[m\x1b[K = distribution(generator) - 0.5;\n'}
+[4.144666] (kmf3_ros360_cpp) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.223967] (-) TimerEvent: {}
+[4.324235] (-) TimerEvent: {}
+[4.424993] (-) TimerEvent: {}
+[4.525356] (-) TimerEvent: {}
+[4.626858] (-) TimerEvent: {}
+[4.727171] (-) TimerEvent: {}
+[4.828225] (-) TimerEvent: {}
+[4.928464] (-) TimerEvent: {}
+[5.028975] (-) TimerEvent: {}
+[5.129293] (-) TimerEvent: {}
+[5.229709] (-) TimerEvent: {}
+[5.330936] (-) TimerEvent: {}
+[5.431172] (-) TimerEvent: {}
+[5.531435] (-) TimerEvent: {}
+[5.631761] (-) TimerEvent: {}
+[5.732155] (-) TimerEvent: {}
+[5.833249] (-) TimerEvent: {}
+[5.933501] (-) TimerEvent: {}
+[6.034555] (-) TimerEvent: {}
+[6.134805] (-) TimerEvent: {}
+[6.236334] (-) TimerEvent: {}
+[6.337518] (-) TimerEvent: {}
+[6.437800] (-) TimerEvent: {}
+[6.538061] (-) TimerEvent: {}
+[6.638892] (-) TimerEvent: {}
+[6.739190] (-) TimerEvent: {}
+[6.839444] (-) TimerEvent: {}
+[6.940067] (-) TimerEvent: {}
+[7.040500] (-) TimerEvent: {}
+[7.141033] (-) TimerEvent: {}
+[7.241341] (-) TimerEvent: {}
+[7.342182] (-) TimerEvent: {}
+[7.442777] (-) TimerEvent: {}
+[7.544965] (-) TimerEvent: {}
+[7.645296] (-) TimerEvent: {}
+[7.745544] (-) TimerEvent: {}
+[7.845814] (-) TimerEvent: {}
+[7.946108] (-) TimerEvent: {}
+[8.045265] (kmf3_ros360_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/templatePubSub.dir/build.make:76: CMakeFiles/templatePubSub.dir/src/templatePubSub.cpp.o] Error 1\n'}
+[8.046223] (-) TimerEvent: {}
+[8.046476] (kmf3_ros360_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/templatePubSub.dir/all] Error 2\n'}
+[8.046730] (kmf3_ros360_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.049099] (kmf3_ros360_cpp) CommandEnded: {'returncode': 2}
+[8.146465] (-) TimerEvent: {}
+[8.247139] (-) TimerEvent: {}
+[8.270427] (kmf3_ros360_cpp) JobEnded: {'identifier': 'kmf3_ros360_cpp', 'rc': 2}
+[8.281875] (-) EventReactorShutdown: {}

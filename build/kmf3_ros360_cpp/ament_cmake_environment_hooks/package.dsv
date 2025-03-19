@@ -1,0 +1,4 @@
+source;share/kmf3_ros360_cpp/local_setup.bash
+source;share/kmf3_ros360_cpp/local_setup.dsv
+source;share/kmf3_ros360_cpp/local_setup.sh
+source;share/kmf3_ros360_cpp/local_setup.zsh

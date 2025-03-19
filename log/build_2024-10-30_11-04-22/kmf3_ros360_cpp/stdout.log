@@ -1,0 +1,5 @@
+[ 14%] Built target helloworld
+[ 28%] Built target lidarSub
+[ 42%] Built target randomRobot
+[35m[1mConsolidate compiler generated dependencies of target templatePubSub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/templatePubSub.dir/src/templatePubSub.cpp.o[0m
